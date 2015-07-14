@@ -1,15 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,600);
 @import url(http://fonts.googleapis.com/css?family=Titillium+Web:700);
 
-@font-face {
-    font-family: myriad;
-    src: url(../font/MYRIADAM.TTF);
-}
+
 
 body {
 	color:#FFF; 
 	font-family: 'Open Sans', sans-serif;
-	min-width:960px;
+	
 	top:0;
 	left:0;
 	position:absolute;
@@ -22,7 +19,7 @@ body {
 	filter: dropshadow(color=#000000, offx=0, offy=1);	
 }
 h1 {
-	font-size:68px;
+	font-size:4.5em;
 	letter-spacing:-2px;  
 	text-align:center; 
 	padding-top:30px;
@@ -127,10 +124,10 @@ margin-top:40px;
 }
 #Content h2 {
 display: inline-block;
-margin: 25px 0 45px;
+margin: 2em 0 4em;
 padding: 0px;
 text-align: center;
-font-size: 28px; 
+font-size: 1.6em; 
 font-weight: 300;
 color: #fff;
 line-height: 36px;
@@ -247,10 +244,10 @@ h2 span{
 	font-size: 2em;
 }
 .make{
-	color: orange;
+	color: #FF9933;
 }
 .college{
-	color: green;
+	color: #138808;
 }
 
 /* IE7 inline-block hack */
@@ -288,6 +285,12 @@ margin:10px;
 	.styled div {
 	  margin-bottom:10px; 
 	}
+	h1{
+		font-size: 3em;
+	}
+	h2{
+		font-size: 1.2em;
+	}
 }
 @media(max-width:420px){
 	h1{
@@ -295,6 +298,7 @@ margin:10px;
 	text-align: center;
 	margin-left:0px;
 	margin-bottom:0px;
+	font-size: 3em;
 	}
 	.styled div {
 	  margin-bottom:10px;
@@ -309,7 +313,7 @@ margin:10px;
 	margin: 0px 0px 0px 0px;
 	padding: 0px;
 	text-align: center;
-	font-size: 29px;
+	font-size: 1.2em;
 	font-weight: 300;
 	}
 	.styled {
